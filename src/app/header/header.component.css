@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid deeppink;
+    background-color: rgba(227, 231, 239, 0.808);
+}
+
+.logo {
+    margin: 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    margin: 20px 20px;
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: deeppink;
+    font-family: sans-serif;
+}

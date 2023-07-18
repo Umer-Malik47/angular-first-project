@@ -1,0 +1,12 @@
+<div class="container" >
+    <div class="course" *ngFor="let course of display">
+        <img src={{course.link}} alt="please enter language link " id="poster-img">
+        <div class="discription">
+            <h3>{{course.title | titlecase}}</h3>
+            <p>Price : {{course.price}}$</p> 
+            <p>Rating : {{course.rating}}</p>
+            <button>Add to card</button>
+        </div>
+
+    </div>
+</div>

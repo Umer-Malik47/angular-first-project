@@ -1,0 +1,50 @@
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#poster-img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+
+
+}
+
+.course {
+    border: 1px solid rgba(255, 20, 145, 0.853);
+    width: 260px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: inset -4px -4px 4px 1px rgb(196, 207, 227),
+                inset 4px 4px 4px 1px rgb(196, 207, 227);
+};
+
+
+.discription {
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+}
+.discription p{
+    font-size: 18px;
+    margin-top:4px ;
+}
+button {
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    border: 2px solid rgba(241, 237, 237, 0.875);
+    background-color: rgba(255, 20, 145, 0.853);
+    color: rgba(255, 255, 255, 0.875);
+    transition: background-color 0.3s;
+    cursor: pointer;
+   
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: rgba(168, 22, 99, 0.955);
+}

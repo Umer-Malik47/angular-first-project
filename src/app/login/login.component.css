@@ -1,0 +1,60 @@
+.saller-auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 100px;
+}
+
+.signup {
+    border: 1px solid rgba(255, 20, 145, 0.853);
+    padding: 20px;
+}
+
+.signup h1 {
+    color: rgba(255, 20, 145, 0.853);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px;
+}
+
+input {
+    padding: 15px 5px;
+    padding-right: 40px;
+    margin: 8px 0;
+    background-color: rgba(215, 215, 221, 0.875);
+    border: 1px solid rgba(255, 20, 145, 0.853);
+    outline: none;
+    border-radius: 4px;
+    color: rgba(255, 20, 145, 0.853);
+    letter-spacing: 1px;
+    width: 300px;
+    font-size: 16px ;
+}
+
+::placeholder {
+    color: rgba(255, 20, 145, 0.853);
+}
+
+button {
+    padding: 7.5px 35px;
+    font-size: 1.3rem;
+    border: 2px solid rgba(250, 245, 245, 0.875);
+    background-color: rgba(255, 20, 145, 0.853);
+    color: rgba(255, 251, 251, 0.875);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(169, 18, 99);
+
+}

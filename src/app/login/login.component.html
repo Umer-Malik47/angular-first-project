@@ -1,0 +1,12 @@
+<div class="saller-auth">
+    <div class="signup">
+        <h1>Add Data</h1>
+        <form #sallerSignup="ngForm" (ngSubmit)="getUserFormData(sallerSignup.value)">
+            <input type="text" name="link" placeholder="Enter image link" ngModel  required="true"/>
+            <input type="text" name="title" placeholder="Enter title"ngModel required="true"/>
+            <input type="number" name="price" placeholder="Enter price"ngModel required="true"/>
+            <input type="number" name="rating" placeholder="Enter rating"ngModel required="true"/>
+            <button>Upload</button>
+        </form>
+    </div>
+</div>
